@@ -154,7 +154,7 @@ money = String(money);
 
 console.log(typeof money);
 
-
+//CONDITION STATEMENT
 // if (condition){...}
 // else if()
 // else
@@ -172,6 +172,103 @@ if (a > b) {
     console.log("a is equal to   b");
     
 }
+let time = 30;
+let greetings;
+if(time>10){
+    greetings ="Good morning";
+    console.log(greetings);
+
+}else if (time < 20){
+    greetings = "Good day";
+    console.log(greetings);
+}else{
+    greetings ="Good Evening";
+    console.log(greetings);
+}
+
+// EXERCISE
+let password = 8;
+if (password ==8){
+    password = "welcame"
+    console.log(password)
+}else if(password<=8){
+    console.log("password is too short");
+    
+}else if( password>= 8){
+    console.log("too long password");
+    console.log("password should be 8");
+    
+}else{
+    console.log("please provide a password");
+    
+}
+//switch statement 
+// switch (){
+// case1:
+// print;
+// break;
+// case 2:
+// print;
+// break;
+// }
+// example
+let day = "friday";//if is number u don't but the string 
+switch(day){//is like if condition (if ())
+    case "monday":
+        console.log("today is monday");
+        break;
+        case "tuesday":
+            console.log("today is tuesday");
+            break;
+            case "thursday":
+                console.log("today is thursday");
+                Break;
+                default:
+                    console.log("i don't know the day");
+}
+let fruit = "lemon"
+switch(fruit){
+    case"Banana":
+    console.log("Banana is good");
+    break;
+
+    case"Apple":
+    console.log("How you like them apples");
+    break;
+
+  case"Orange":
+    console.log("I am not fun of Orange");
+    break;
+    default:
+        console.log( "I have never heard of that fruit");
+}
+// for loop
+//for(initialExpression; condition;incrementExpretion){ }
+
+//   for(let index = 0; index<Array.length;index++){
+// const element = array[index];
+//   }
+  //example
+//   for (let i = 1; i<=100; i++){
+//     console.log(i);
+    
+//   } 
+//   //print your  name and numbers from 0 through 1000  
+// for (let i = 0; i<=10; i++){
+//     console.log("sonia",i);
+// }
+    
+    
+//while(condition){
+//code block to be executed.
+//}
+let i = 1;
+while( i<= 5){
+    console.log("hello world");
+    i++;
+    
+}
+
 
 
 
