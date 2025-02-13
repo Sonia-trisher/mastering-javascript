@@ -262,12 +262,118 @@ switch(fruit){
 //while(condition){
 //code block to be executed.
 //}
-let i = 1;
-while( i<= 5){
-    console.log("hello world",i);
-    i++;
+// let i = 1;
+// while( i<= 5){
+//     console.log("hello world",i);
+//     i++;
+    
+// }
+//print "your name " 100 times to the console using while loop 
+//interation will start from 10.
+let i = 10;
+while( i<=100){
+    console.log("sonia", i);
+    i++
     
 }
+//logical operator in javascript
+//&& and ||
+// let passWord = " huxn-webdev";
+// if(passWord.length>=8 && passWord.includes("web")){
+//     console.log( "valid passWord");
+    
+// }else{
+//     console.log("invalid passWord");
+// }//VALID PASSWORD(WE CONSIDER IF BOTH IS TRUE)
+
+let passWord = " huxn-dev";
+if(passWord.length>=8 || passWord.includes("web")){
+    console.log( "valid passWord");
+    
+}else{
+    console.log("invalid passWord");
+}//VALID PASSWORD(IF ONE OF THEM IS TRUE)
+
+
+// let isTrue = true;
+// console.log((isTrue));//true
+
+
+let isTrue = true;
+console.log(!isTrue);//false
+
+//arrays>0 index based
+
+//empty array
+const myList = [] ;
+console.log(myList);
+
+const myNumbers =[1,2,3,4,5];
+console.log(myNumbers);
+
+const stringArr =['eat','sleep','code','repeat'];
+// accessing items from our array means to pick from array
+console.log(stringArr[2]);
+
+// two dimension//nested Array means array in another array
+const nestArr =['one',['keza','babe','sonia'],1,true,false];
+console.log(nestArr[1][1]);
+//create array name (favSingers) store 3 favorite singers.
+// log the first singer in that array
+const favSingers = ['shawn Mendes','nelNgabo','andi Umuntu'];
+console.log(favSingers[0]);
+//create array name(favNumbers)& store 4 fav numbers
+const favNumbers = ['1','4','7','8'];
+console.log(favNumbers);
+// create array name (mixedArr)store["string",["otherarray"],123,true]
+//now access each item in that array by using[]notation
+const mixedArr = ["string",["otherarray"],123,true];
+console.log(mixedArr[0]);
+console.log(mixedArr[1]);
+console.log(mixedArr[2]);
+console.log(mixedArr[3]);
+
+ //array method 
+const fruits = ['grapefruits','pinnaples','mangos','oranges','lemons'];
+console.log(fruits.length);
+ //push()= aads a new element to the end of an array and returns the new length of an array
+fruits.push('banana')
+console.log(fruits);
+
+//pop()= removes the last element of an array and returns the removed element
+fruits.pop()
+console.log(fruits);
+//shift= removes the first element of an array and returns the removed element
+fruits.shift();
+console.log(fruits);
+
+//unshift = adds a new element to the beginning of an array and returns the new length of an array
+const numbers = [2,22,33,44,55,66];
+console.log(numbers);
+numbers.unshift(3)
+console.log(numbers);
+
+// concat = joins two or more arrays and returns a result
+const  DomesticAnimals = ['cat',"dog","rabbit"];
+const  wildAnimals = [ "ZEBRA","lion","elephant"];
+const Animals = DomesticAnimals.concat(wildAnimals);
+console.log(Animals);
+
+const pl =[ "javascript","php","python","java"];
+const number12 =[10,20,33,11,2,3,4];
+//includes = checks if an array contains a specified element
+console.log(pl.includes("php"));
+console.log(pl.join("-"));
+// console.log(pl.reverse());
+//slice = selects the part of an array and returns the new array
+console.log(pl.slice(0,2));
+console.log(number12);
+//sort = sorts the elements alphabetically in strings and in ascending order
+console.log(number12.sort());
+
+
+
+
 
 
 
