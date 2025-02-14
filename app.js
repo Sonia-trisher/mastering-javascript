@@ -429,7 +429,7 @@ greet ();
 greet ();
 greet ();
 
-// local valiables
+// local valiables also function decralation
 function sayHello(name){
 // console.log(`hello ${name = "keza"}`);
 console.log(`hello ${name}`);
@@ -444,17 +444,43 @@ sayHello("sonia");
 
 
 
-function myFunction(a, b) {
-    console.log(a * b);
-}
-myFunction(4, 3);
+// function myFunction(a, b) {
+//     console.log(a * b);
+// }
+// myFunction(4, 3);
 
 
 // return fuctions
-function add(x,y){
-    return x+y;
+function addSum(x, y){
+    return x + y;
 }
-console.log(add(3,4));
+console.log(addSum(9, 0));
+// another way
+function sum(k, t){
+    return k + t;
+}
+const res1 = sum(10, 20);
+const res2 = sum(100, 200);
+const res3 = sum(1000, 2000);
+console.log(res1);
+console.log(res2);
+console.log(res3);
+// challenge
+// 1.create fuction name(myFunction)
+//  2.this fuction will take two paramers 
+// 3.any anumber we pass as argumentit will multiply that number 
+// 4 .as argumentpass yor fovolite numbers 
+// 5.log the value
+function myFunction(p, h){
+return p*h;
+}
+const kep = myFunction(5, 7);
+console.log(kep);
+
+
+
+
+
 
  
 
