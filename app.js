@@ -371,6 +371,86 @@ console.log(number12);
 //sort = sorts the elements alphabetically in strings and in ascending order
 console.log(number12.sort());
 
+// object 
+// const person = {
+//     FirstName :"uwamahoro",
+//     SecondName :"sonia",
+//     Age :20,
+//     location : [ "planet", "earth"],
+ 
+    
+//     isProgrfamer: true,
+
+// };
+// const array = [];
+// console.log(typeof person);
+// console.log( person);
+// //accessing items for object
+// console.log(person.Age);
+// console.log(person["location"]);
+
+// const life = {
+//     10 : "ten",
+// };
+// console.log(life["10"]);
+
+//another examples
+const person = {
+    FirstName : "keza"
+};
+person.lastname = "sonia";
+person. location = ["planet","earth"];
+delete person.FirstName;
+console.log(person);
+// challenges
+// 1.create object name (car);
+// 2 add( type,model,color)as properties;3.check the type of object
+// update the type property to "toyota";5. add new property wheels;
+// 6. log car to the vonsole
+
+const car ={
+    type: "sedar",
+    model:"600",
+    color: "black", 
+};
+console.log(typeof car);
+console.log(car.type = "toyota");
+
+car.wheels = 4;
+console.log(car);
+
+//fuction name(parameters){}
+//fuction decraction
+function greet(){
+    console.log("hello word");
+    
+}
+greet ();
+greet ();
+greet ();
+
+// local valiables
+function sayHello(name){
+// console.log(`hello ${name = "keza"}`);
+console.log(`hello ${name}`);
+
+    // console.log("hello +" " "+name);
+    
+}
+sayHello("keza");
+
+
+
+function myFunction(a, b) {
+    console.log(a * b);
+}
+myFunction(4, 3);
+
+
+
+ 
+
+
 
 
 
