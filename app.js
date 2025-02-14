@@ -438,6 +438,9 @@ console.log(`hello ${name}`);
     
 }
 sayHello("keza");
+sayHello("ane");
+sayHello("sonia");
+
 
 
 
@@ -447,6 +450,11 @@ function myFunction(a, b) {
 myFunction(4, 3);
 
 
+// return fuctions
+function add(x,y){
+    return x+y;
+}
+console.log(add(3,4));
 
  
 
