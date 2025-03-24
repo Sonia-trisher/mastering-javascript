@@ -7,7 +7,7 @@
 // let name ;
 // assign value
 let banana;
-banana = "banana"
+banana = "mango"
 console.log(banana);
 const youtubeChannel ="mrbeast";
 // youtubeChannel = "huxn webdev";
